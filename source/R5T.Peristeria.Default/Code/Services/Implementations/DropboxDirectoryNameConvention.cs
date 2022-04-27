@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Peristeria.Default
-{
-    public class DropboxDirectoryNameConvention : IDropboxDirectoryNameConvention
+{[ServiceImplementationMarker]
+    public class DropboxDirectoryNameConvention : IDropboxDirectoryNameConvention,IServiceImplementation
     {
         public const string DropboxDirectoryName = "Dropbox";
 

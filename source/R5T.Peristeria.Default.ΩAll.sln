@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Peristeria.Default.Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Peristeria.Default.Testing", "R5T.Peristeria.Default.Testing\R5T.Peristeria.Default.Testing.csproj", "{48A18A91-58C3-4115-9850-432E4B4EE825}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{29F4E8DB-6945-4D99-97E9-191F2EFD12A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{48A18A91-58C3-4115-9850-432E4B4EE825}.Release|x64.Build.0 = Release|Any CPU
 		{48A18A91-58C3-4115-9850-432E4B4EE825}.Release|x86.ActiveCfg = Release|Any CPU
 		{48A18A91-58C3-4115-9850-432E4B4EE825}.Release|x86.Build.0 = Release|Any CPU
+		{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D}.Debug|x64.Build.0 = Debug|Any CPU
+		{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D}.Debug|x86.Build.0 = Debug|Any CPU
+		{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D}.Release|x64.ActiveCfg = Release|Any CPU
+		{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D}.Release|x64.Build.0 = Release|Any CPU
+		{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D}.Release|x86.ActiveCfg = Release|Any CPU
+		{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BBEE3A5-9552-414F-9282-CCA4A3C3CC2D} = {29F4E8DB-6945-4D99-97E9-191F2EFD12A2}
 	EndGlobalSection
 EndGlobal
